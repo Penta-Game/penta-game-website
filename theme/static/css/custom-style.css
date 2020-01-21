@@ -1,0 +1,57 @@
+/*
+ * Globals
+ */
+
+@media (min-width: 48em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+
+@font-face {
+  font-family: "Blackout"; /* https://github.com/theleagueof/blackout/ */
+  src: url("/static/fonts/blackout_midnight-webfont.eot");
+  src: url("/static/fonts/blackout_midnight-webfont.woff") format("woff"),
+  url("/static/fonts/blackout_midnight-webfont.svg") format("svg");
+}
+
+
+.blackout-font {
+  font-family: "Blackout", Arial, sans-serif;
+  font-style:normal;
+  font-weight:normal;
+}
+
+body {
+  background-color: #767676
+  background-image: image("/theme/images/ng-background-dot.png");
+  color: #555;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  width: 100%;
+  min-height: 2.5rem;
+}
+
+.background-grey {
+  background-color: #333333;
+  border-color: transparent;
+}
+
+.background-grey:hover {
+  background-color: #505050;
+  border-color: transparent;
+  color: white;
+}
+
+.background-grey:active {
+  background-color: #505050;
+  border-color: transparent;
+  color: white;
+}

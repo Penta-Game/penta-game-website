@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+
+{% block content %}
+{{ super() }}
+  <div role="main" class="content mt-2 mb-4">
+    {% for article in articles %}
+      {{ render_pagination(articles_pagination, render_article, )}}
+    {% endfor %}
+  	<p>More posts in the <a href="{{ SITEURL }}/archives.html" class="text-muted">archive</a>.</p>
+	</div>
+{% endblock content %}
