@@ -100,33 +100,33 @@
         </section><!-- #content -->
         {% block widgets %}
         <section id="widgets" class="grid col-300 fit" >
-          {% if CATEGORYS_SHOWN -%}
-            {% block categories %}
-            <section id="widget-category" class="widget-wrapper widget_archive">
-                <div class="widget-title">
-                    Category
-                </div>
-                <ul>
-                    {% for category, article in categories%}
-                        <li><a href="{{ SITEURL }}/{{ category.url }}" >{{ category.name }} </a></li>
-                    {% endfor %}
-                </ul>
-            </section>
-            {% endblock %}
-          {% endif -%}
-          {% if TAGCLOUD_SHOWN -%}
+          {% block categories %}
+            {% if CATEGORYS_SHOWN -%}
+              <section id="widget-category" class="widget-wrapper widget_archive">
+                  <div class="widget-title">
+                      Category
+                  </div>
+                  <ul>
+                      {% for category, article in categories%}
+                          <li><a href="{{ SITEURL }}/{{ category.url }}" >{{ category.name }} </a></li>
+                      {% endfor %}
+                  </ul>
+              </section>
+            {% endif -%}
+          {% endblock categories %}
             {% block tagcloud %}
-            <section id="widget-tagcloud" class="widget-wrapper widget_archive">
-                <div class="widget-title">
-                    Tagcloud
-                </div>
-                <div>
-                    {% for tag, size in tag_cloud %}
-                        <span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></span>
-                    {% endfor %}
-                </div>
-            </section>
-            {% endblock %}
+              {% if TAGCLOUD_SHOWN -%}
+                <section id="widget-tagcloud" class="widget-wrapper widget_archive">
+                    <div class="widget-title">
+                        Tagcloud
+                    </div>
+                    <div>
+                        {% for tag, size in tag_cloud %}
+                            <span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></span>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endif %}
           {% endblock -%}
 
 
