@@ -1,4 +1,4 @@
-Title: About Me  # Title (shorter is better) dusplayed in h4
+Title: Model  # Title (shorter is better) dusplayed in h4
 Date: 2020-1-21 10:20 # Date in format: Year-Month-Day Hour:Minute
 Modified: 2020-1-21 10:20  # Date in format: Year-Month-Day Hour:Minute
 Category: # Category (als available over subfolders)
@@ -6,7 +6,7 @@ Tags: # Tags including category (lowercase)
 Slug: # slug should be ascii only and without whitespaces
 Authors: # Your Name (should not differ from your name on other pages)
 Summary: # Quick summary about 250 letters
-status: hidden # Can be left out but should be considered if you upload a WIP page
+status: hidden
 
 # Markdown enabled
 
