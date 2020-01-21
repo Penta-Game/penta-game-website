@@ -1,6 +1,7 @@
 #Custom
 pelicanconf_local.py
 venv
+output
 
 #Python
 *.py[cod]
