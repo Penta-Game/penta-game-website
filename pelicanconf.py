@@ -31,7 +31,9 @@ LINKS = ()
 MENUITEMS = (
     ("About", "/pages/about.html"),
     ("Contact", "/pages/contact.html"),
-    ("Rules", "/pages/rules.html")
+    ("Rules", "/pages/rules.html"),
+    ("Events", "/pages/events.html"),
+    ("Shop", "https://87653163.shop.strato.de/")
 )
 
 # Pages

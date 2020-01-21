@@ -8,6 +8,6 @@ Authors: Cobalt
 Summary: Contact section for pentagame.org
 
 
-[Github](https://github.com/penta-game)
+Visit us on [Github](https://github.com/penta-game)
 
-Contact: (game@pentagame.org)[mailto:game@pentagame.org]
+Contact: [game@pentagame.org](mailto:game@pentagame.org)
