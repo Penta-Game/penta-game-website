@@ -16,6 +16,6 @@ Pentagame Cup Semi-Finals and Final
 Dresscode: Cats, Rabbits, Hedgehogs, Geese, Black Blocks, Grey Blocks.
 
 
-<div class="d-flex justify-content-center">
-  ![c-base](http://pentagame.org/images/Pentagame-Thursday.png)
-</div>
+<center>
+  <img src="http://pentagame.org/images/Pentagame-Thursday.png" class="img-responsive" />
+</center>
