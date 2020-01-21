@@ -1,9 +1,12 @@
 #Custom
 output
 pelicanconf_local.py
+venv
 
 #Python
 *.py[cod]
+__pychache__/
+
 
 # C extensions
 *.so
