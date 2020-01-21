@@ -6,6 +6,7 @@ Tags:
 Slug:
 Authors:
 Summary:
-status: hidden # Can be left out
+status: hidden
+^ Should be left out
 
 See models.md for more context
