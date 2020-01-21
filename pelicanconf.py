@@ -38,6 +38,8 @@ MENUITEMS = (
 
 # Pages
 DISPLAY_PAGES_ON_MENU = True
+CATEGORYS_SHOWN = False
+TAGCLOUD_SHOWN = False
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
