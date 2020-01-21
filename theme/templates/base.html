@@ -87,15 +87,10 @@
     {% endif %}
   {% endif %}
     <section id="wrapper" class="clearfix">
-        <section id="content" class="container m-2" >
+        <section id="content" class="container m-2 d-flex justify-content-center" >
+          {% block content_title %}
+          {% endblock %}
             {% block content %}
-                {% block content_title %}
-                {% endblock %}
-                <section class="breadcrumb-list">
-                    {% block nav %}
-                    {% endblock %}
-                </section>
-
             {% endblock %}
         </section><!-- #content -->
         {% block widgets %}

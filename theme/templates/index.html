@@ -2,11 +2,6 @@
 {% block content_title %}{% endblock %}
 
 {% block content %}
-{{ super() }}
-  <div role="main" class="content mt-2 mb-4">
-    {% for article in articles %}
-      {{ render_pagination(articles_pagination, render_article, )}}
-    {% endfor %}
-  	<p>More posts in the <a href="{{ SITEURL }}/archives.html" class="text-muted">archive</a>.</p>
-	</div>
+  <img src="/theme/images/index.png" class="img-responsive" />
+  <h4>The abstract board game with no dice for 2-4 players.</h4>
 {% endblock content %}
