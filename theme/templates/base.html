@@ -131,16 +131,18 @@
 
 
             {% block links %}
-            <section id="widget-links" class="widget-wrapper widget_archive">
-                <div class="widget-title">
-                    Links
-                </div>
-                <ul>
-                    {% for name, link in LINKS %}
-                        <li><a href="{{ link }}">{{ name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </section>
+              {% if LINKS_SHOWN -%}
+                <section id="widget-links" class="widget-wrapper widget_archive">
+                    <div class="widget-title">
+                        Links
+                    </div>
+                    <ul>
+                        {% for name, link in LINKS %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+              {% endif -%}
             {% endblock %}
 
         </section>

@@ -29,17 +29,18 @@ LINKS = ()
 # Menu Items used in navbar
 
 MENUITEMS = (
-    ("About", "/pages/about.html"),
-    ("Contact", "/pages/contact.html"),
     ("Rules", "/pages/rules.html"),
+    ("About", "/pages/about.html"),
     ("Events", "/pages/events.html"),
+    ("Contact", "/pages/contact.html"),
     ("Shop", "https://87653163.shop.strato.de/")
 )
 
 # Pages
 DISPLAY_PAGES_ON_MENU = True
-CATEGORYS_SHOWN = False
-TAGCLOUD_SHOWN = False
+CATEGORYS_SHOWN = False  # Due to WIP
+TAGCLOUD_SHOWN = False  # Due to WIP
+LINKS_SHOWN = False  # Due to WIP
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
