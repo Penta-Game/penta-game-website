@@ -24,17 +24,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Menu Items used in navbar
 
 MENUITEMS = (
-    ("About", "/pages/about"),
-    ("Contact", "/pages/contact"),
-    ("Rules", "/pages/rules")
+    ("About", "/pages/about.html"),
+    ("Contact", "/pages/contact.html"),
+    ("Rules", "/pages/rules.html")
 )
 
 # Pages

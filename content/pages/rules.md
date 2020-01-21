@@ -11,3 +11,9 @@ Summary: Rules section for pentagame.org
 # Rules for Pentagame
 
 ## (Rules in English)[/download/rules_en.pdf] and (Rules in German)[/download/rules_de.pdf]
+
+Rules explanation on (Youtube)[https://www.youtube.com/watch?v=pnXDFhH5gMI]
+
+Rules explanation on (Youttube)[https://www.youtube.com/watch?v=H1BSNvzTxko]
+
+Trailer:
