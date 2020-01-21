@@ -17,5 +17,5 @@ Dresscode: Cats, Rabbits, Hedgehogs, Geese, Black Blocks, Grey Blocks.
 
 
 <center>
-  <img src="http://pentagame.org/images/Pentagame-Thursday.png" class="img-responsive" />
+  <img src="http://pentagame.org/images/Pentagame-Thursday.png" class="img-fluid" />
 </center>

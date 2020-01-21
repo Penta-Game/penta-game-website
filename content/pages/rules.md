@@ -15,8 +15,18 @@ Rules explanation in english [Youtube](https://www.youtube.com/watch?v=pnXDFhH5g
 
 Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxko)
 
-Trailer:
+<button type="button" class="btn btn-primary btn-shadow" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-play"></i> Launch Trailer</button>
 
-<video width="320" height="240" controls>
-  <source src="http://pentagame.org/video/Pentagame_Teaser_E.mp4" type="video/mp4">
-</video>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-body">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="http://pentagame.org/video/Pentagame_Teaser_E.mp4" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+        </div>
+    </div>
+  </div>
+</div>
