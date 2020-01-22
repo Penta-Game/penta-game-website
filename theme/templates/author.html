@@ -5,6 +5,6 @@
     <h1>{{ author.name }}</h1>
     <footer class="blockquote-footer text-center">{{ author.articles|length }} articles published</footer>
     <hr>
-    {{ render_pagination(dates_paginator, render_article, per_page="5", layout="card") }}
+    {{ render_pagination(dates_paginator, render_article, per_page=5, layout="card") }}
   </section>
 {% endblock content -%}

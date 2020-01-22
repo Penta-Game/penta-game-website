@@ -27,7 +27,7 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Plugins
-PLUGINS = ['pelican-jinja2content']
+PLUGINS = []
 
 # Menu Items used in navbar
 
@@ -49,7 +49,7 @@ TAG_SAVE_AS = ''
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+          ('Another social link', '#'))
 
 DEFAULT_PAGINATION = 10
 
