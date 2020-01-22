@@ -39,6 +39,10 @@ footer {
   min-height: 2.5rem;
 }
 
+hr {
+   border-top: 1px solid #714cdf;
+}
+
 .background-grey {
   background-color: #333333;
   border-color: transparent;
