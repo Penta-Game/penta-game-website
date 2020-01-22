@@ -43,6 +43,7 @@ TAGCLOUD_SHOWN = False  # Due to WIP
 LINKS_SHOWN = False  # Due to WIP
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
+AUTHOR_SAVE_AS = "author/{slug}.html"
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
