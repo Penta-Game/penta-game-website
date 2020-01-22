@@ -7,12 +7,20 @@ Slug: events
 Authors: Cobalt, Jan Suchanek
 Summary: Events section for pentagame.org
 
-## Next Event: P-Day
+<br>
+
+## <div class="glow">P-Day </div>
+
+<br>
 
 P-Day is MARCH 14th 2020.
+
 Location t.b.a. :)
+
 Kickstarter Edition Release
+
 Pentagame Cup Semi-Finals and Final
+
 Dresscode: Cats, Rabbits, Hedgehogs, Geese, Black Blocks, Grey Blocks.
 
 

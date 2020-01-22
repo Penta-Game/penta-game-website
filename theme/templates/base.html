@@ -59,7 +59,7 @@
 <body id="index" class="blog">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-2">
     {% block navbrand -%}
-    <a class="navbar-brand" href="/"><img src="/theme/images/brand.png" width="30px" height="30px" class="img-fluid" /> {{ SITENAME }}</a>
+      <a class="navbar-brand" href="/"><img src="/theme/images/brand.png" width="30px" height="30px" class="img-fluid" /> {{ SITENAME }}</a>
     {% endblock -%}
     <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -93,6 +93,7 @@
             {% block content %}
             {% endblock %}
         </section><!-- #content -->
+
         {% block widgets %}
         <section id="widgets" class="grid col-300 fit" >
           {% block categories %}
@@ -144,9 +145,10 @@
         {% endblock widgets %}
     </section>
     {% block footer %}
-        <footer class="fixed-bottom">
+        <footer class="text-center pt-2 pb-2 fixed-bottom bg-dark" >
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
             Powered by <a href="http://getpelican.com/">Pelican</a> and created by <a href="https://sinclair.gq">Cobalt</a>
+
         </footer>
     {% endblock footer %}
 </div>

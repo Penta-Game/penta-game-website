@@ -7,7 +7,16 @@ Slug: contact
 Authors: Cobalt
 Summary: Contact section for pentagame.org
 
+## Copyrigth of Pentagame
+### Jan Suchanek
+
+Wenckebachstr. 13, 12099 Berlin
+
 
 Visit us on [Github](https://github.com/penta-game)
 
-Contact: [game@pentagame.org](mailto:game@pentagame.org)
+E-Mail:
+
+- Game support: [game@pentagame.org](mailto:game@pentagame.org)
+- Website support: [Cobalt](mailto:chaosthe0rie@protonmail.com)
+- Jan Suchanek: penta ---> c-base.org

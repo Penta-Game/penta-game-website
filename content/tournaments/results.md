@@ -5,7 +5,7 @@ Category: tournaments
 Tags: general, events, official, maintained
 Maintainer: Jan Suchanek
 Slug: results
-Authors: Cobalt
+Authors: cobalt, Jan Suchanek
 Summary: Collection of results from penta game tournaments
 
 <div class="text-center">
