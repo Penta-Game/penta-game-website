@@ -41,6 +41,8 @@ DISPLAY_PAGES_ON_MENU = True
 CATEGORYS_SHOWN = False  # Due to WIP
 TAGCLOUD_SHOWN = False  # Due to WIP
 LINKS_SHOWN = False  # Due to WIP
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),

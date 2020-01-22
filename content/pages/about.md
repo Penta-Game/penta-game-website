@@ -2,7 +2,7 @@ Title: About
 Date: 2020-1-21 10:20
 Modified: 2020-1-21 10:20
 Category: General
-Tags: general, WIP
+Tags: general
 Slug: about
 Authors: Cobalt
 Summary: About section for pentagame.org

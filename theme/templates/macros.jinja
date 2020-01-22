@@ -24,10 +24,14 @@
   {% endif -%}
 {% endmacro -%}
 
-{% macro render_pagination(pagination, render_macro, render_bar=True) -%}
-  {% for item in pagination.items -%}
-    {{ render_macro(item, type="pagination") }}
-  {% endfor -%}7
+{% macro render_pagination(pagination, render_macro, render_bar=True, layout="simple", per_page=None) -%}
+  {% if layout == "simple" -%}
+    {% for item in pagination.items -%}
+      {{ render_macro(item, type="pagination") }}
+    {% endfor -%}
+  {% elif layout == "card" -%}
+    <!-- Card pagination object -->
+  {% endif -%}
   {% if render_bar == True -%}
     <!-- Render Bar with numbers etc. -->
   {% endif -%}

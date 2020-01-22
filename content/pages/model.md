@@ -1,12 +1,12 @@
 Title: Model  # Title (shorter is better) dusplayed in h4
-Date: 2020-1-21 10:20 # Date in format: Year-Month-Day Hour:Minute
-Modified: 2020-1-21 10:20  # Date in format: Year-Month-Day Hour:Minute
+Date: 2020-1-21 10:20
+Modified: 2020-1-21 10:20
 Category: # Category (als available over subfolders)
 Tags: # Tags including category (lowercase)
 Slug: # slug should be ascii only and without whitespaces
 Authors: # Your Name (should not differ from your name on other pages)
 Summary: # Quick summary about 250 letters
-status: hidden
+status: draft
 
 # Markdown enabled
 
