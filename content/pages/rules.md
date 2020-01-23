@@ -25,7 +25,7 @@ Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxk
         </button>        
         <!-- 16:9 aspect ratio -->
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="http://pentagame.org/video/Pentagame_Teaser_E.mp4" id="video"  allowscriptaccess="always" allow="autoplay" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://pentagame.org/video/Pentagame_Teaser_E.mp4" id="video"  allowscriptaccess="always" allow="autoplay" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </div>
   </div>
