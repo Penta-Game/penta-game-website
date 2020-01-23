@@ -17,7 +17,7 @@ Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxk
 
 <button type="button" class="btn btn-primary btn-shadow" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-play"></i> Launch Trailer</button>
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg background-grey" tabindex="-1" backdrop="static" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal">
   <div class="modal-dialog modal-lg">
     <div class="modal-body">
        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -25,7 +25,7 @@ Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxk
         </button>        
         <!-- 16:9 aspect ratio -->
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="http://pentagame.org/video/Pentagame_Teaser_E.mp4" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+          <iframe class="embed-responsive-item" src="http://pentagame.org/video/Pentagame_Teaser_E.mp4" id="video"  allowscriptaccess="always" allow="autoplay" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </div>
   </div>
