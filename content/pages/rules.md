@@ -15,7 +15,7 @@ Rules explanation in english [Youtube](https://www.youtube.com/watch?v=pnXDFhH5g
 
 Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxko)
 
-[Sources for multilingual rules](/category/rules/sources.html)
+[Sources for multilingual rules](sources.html)
 
 <button type="button" class="btn btn-primary btn-shadow" data-toggle="modal" data-target="#modal"><i class="fa fa-play"></i> Launch Trailer</button>
 
@@ -36,7 +36,7 @@ Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxk
 
 <script>
 $('#modal').on('shown.bs.modal', function () {
-  $('#video1')[0].currentTime = 0;
+  $('#video1')[0].scurrentTime = 0;
   $('#video1')[0].play();
 })
 $('#modal').on('hidden.bs.modal', function () {
