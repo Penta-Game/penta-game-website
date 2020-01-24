@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Cobalt'
 SITENAME = 'Pentagame'
-SITEURL = ''
+SITEURL = 'http'
 
 PATH = 'content'
 
