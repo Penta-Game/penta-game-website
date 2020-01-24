@@ -19,4 +19,4 @@ E-Mail:
 
 - Game support: [game@pentagame.org](mailto:game@pentagame.org)
 - Website support: [Cobalt](mailto:chaosthe0rie@protonmail.com)
-- Jan Suchanek: penta ---> c-base.org
+- Jan Suchanek: [jan@pentagame.org](mailto:jan@pentagame.org)
