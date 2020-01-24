@@ -19,7 +19,7 @@ Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxk
 
 <button type="button" class="btn btn-primary btn-shadow" data-toggle="modal" data-target="#modal"><i class="fa fa-play"></i> Launch Trailer</button>
 
-<div class="modal fade" tabindex="-1" data-backdrop="False" role="dialog"id="modal">
+<div class="modal modal-xl fade" tabindex="-1" data-backdrop="False" role="dialog"id="modal">
   <div class="modal-dialog" role="document">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
   <span aria-hidden="true">&times;</span>
