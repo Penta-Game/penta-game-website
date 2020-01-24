@@ -7,6 +7,8 @@ Slug: about
 Authors: Cobalt
 Summary: About section for pentagame.org
 
+<center>
+
 Easy rules. Little material.
 
 Short duration. 2-4 players.
@@ -23,4 +25,6 @@ After successful crowd funding, copies will become available from March 2020 ('P
 
 Meet players at c-base every Thursday from 7pm.
 
-Contact: gro.emagatnep@emag
+[Contact us](contact.html)
+
+</center>
