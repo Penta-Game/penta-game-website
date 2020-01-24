@@ -15,7 +15,11 @@ Rules explanation in english [Youtube](https://www.youtube.com/watch?v=pnXDFhH5g
 
 Rules explanation in german [Youtube](https://www.youtube.com/watch?v=H1BSNvzTxko)
 
+<<<<<<< HEAD
 [Sources for multilingual rules](/sources.html)
+=======
+[Sources for multilingual rules](sources.html)
+>>>>>>> cd36da623e8be7abd6ac966f220b47f87a9045b0
 
 <button type="button" class="btn btn-primary btn-shadow" data-toggle="modal" data-target="#modal"><i class="fa fa-play"></i> Launch Trailer</button>
 
