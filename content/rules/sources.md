@@ -9,7 +9,7 @@ Summary: Sources to get your own copy of the penta game rules
 
 The penta game rules are supplied with every physical copy of penta game.
 
-[Quick Rule explanation](/rules/quickie.html)
+[Quick Rule explanation](/quickie.html)
 
 Rules explanation in english [Youtube](https://www.youtube.com/watch?v=pnXDFhH5gMI)
 
