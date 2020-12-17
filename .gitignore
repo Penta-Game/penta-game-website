@@ -1,4 +1,4 @@
-#Custom
+# Custom
 pelicanconf_local.py
 venv
 output*
@@ -41,3 +41,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Venv
+venv/
