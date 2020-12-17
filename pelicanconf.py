@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Cobalt'
 SITENAME = 'Pentagame'
-SITEURL = 'http'
+SITEURL = 'https'
 
 PATH = 'content'
 
@@ -16,27 +16,40 @@ THEME = "theme"
 
 USE_FOLDER_AS_CATEGORY = True
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = ()
-
 # Plugins
 PLUGINS = []
+
+# article url settings
+ARTICLE_PATHS = ["articles"]
+ARTICLE_URL = "blog/{category}/{slug}/"
+ARTICLE_SAVE_AS = "blog/{category}/{slug}/index.html"
+ARTICLE_LANG_SAVE_AS = "blog/{category}/{slug}-{lang}/index.html"
+ARTICLE_LANG_URL = "blog/{category}/{slug}-{lang}/"
+DRAFT_URL = 'drafts/{slug}/index.html'
+DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
+DEFAULT_METADATA = {"status": "published"}
+
+# Category url settings
+CATEGORY_URL = "category/{slug}/"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+
+# Page url settings
+PAGE_URL = "pages/{slug}/"
+PAGE_SAVE_AS = "pages/{slug}/index.html"
+PAGE_LANG_URL = "pages/{lang}/{slug}/"
+PAGE_LANG_SAVE_AS = "pages/{lang}/{slug}/index.html"
+
+# Prefixes
+PREFIXES = ["/pages/*", "/blog/*", "/category/*"]
 
 # Menu Items used in navbar
 
 MENUITEMS = (
-    ("Rules", "/pages/rules.html"),
-    ("About", "/pages/about.html"),
-    ("Events", "/pages/events.html"),
-    ("Contact", "/pages/contact.html"),
-    ("Shop", "https://87653163.shop.strato.de/")
+    ("Rules", "/pages/rules/"),
+    ("About", "/pages/about/"),
+    ("Events", "/pages/events/"),
+    ("Contact", "/pages/contact/"),
+    ("Shop", "https://87653163.shop.strato.de/") 
 )
 
 # Pages

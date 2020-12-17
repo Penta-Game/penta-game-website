@@ -1,7 +1,7 @@
 {% from "macros.jinja" import render_pagination, render_article -%}
 {% extends "base.html" -%}
 {% block content -%}
-  <section id="content" class="body">
+  <section id="content" class="body my-4">
     <h1>{{ author.name }}</h1>
     <footer class="blockquote-footer text-center">{{ author.articles|length }} articles published</footer>
     <hr>

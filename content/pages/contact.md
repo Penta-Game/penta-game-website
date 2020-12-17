@@ -8,12 +8,15 @@ Authors: Cobalt
 Summary: Contact section for pentagame.org
 
 ## Copyrigth of Pentagame
+
 ### Jan Suchanek
+
+Board design and Pentagame brand are intellectual property of Jan Suchanek. Please contact him for any inquires regarding usage and licensing.
 
 Wenckebachstr. 13, 12099 Berlin
 
 
-Visit us on [Github](https://github.com/penta-game)
+Visit us on [Github](https://github.com/Penta-game)
 
 E-Mail:
 
