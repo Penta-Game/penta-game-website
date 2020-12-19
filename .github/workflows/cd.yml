@@ -33,8 +33,8 @@ jobs:
 
       # Install static assets
       - uses: bahmutov/npm-install@v1
-          with:
-            working-directory: theme/static/
+        with:
+          working-directory: theme/static/
       - name: Build assets
         run: |
           cd theme/static/
