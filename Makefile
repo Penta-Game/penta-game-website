@@ -1,5 +1,5 @@
 PY?=python3
-PELICAN?=python3 -m pelican
+PELICAN?=/home/$(USER)/.local/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
