@@ -32,10 +32,10 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       # Install static assets
+      - uses: bahmutov/npm-install@v1
       - name: Install & Build assets
-        uses: bahmutov/npm-install@v1
         with:
-            working-directory: theme/static/
+            working-directory: ${{ GITHUB_WORKSPACE }}/theme/static/
         run: |
           npm i 
           npm run production-compile
