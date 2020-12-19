@@ -33,10 +33,12 @@ jobs:
 
       # Install static assets
       - uses: bahmutov/npm-install@v1
-      - name: Install & Build assets
+        working-directory: theme/static/
+      - name: Build assets
         run: |
-          npm i 
+          cd theme/static/
           npm run production-compile
+          cd ../../
 
       # Install python dependencies 
       - name: Install python dependencies and create html files
