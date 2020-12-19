@@ -34,8 +34,6 @@ jobs:
       # Install static assets
       - uses: bahmutov/npm-install@v1
       - name: Install & Build assets
-        with:
-            working-directory: /theme/static/
         run: |
           npm i 
           npm run production-compile
