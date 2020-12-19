@@ -36,9 +36,9 @@ jobs:
         uses: bahmutov/npm-install@v1
         with:
             working-directory: theme/static/
-            run: |
-              npm i 
-              npm run production-compile
+        run: |
+          npm i 
+          npm run production-compile
 
       # Install python dependencies 
       - name: Install python dependencies and create html files
