@@ -35,8 +35,10 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - name: Install & Build assets
         run: |
+          cd theme/static/
           npm i 
           npm run production-compile
+          cd ../../
 
       # Install python dependencies 
       - name: Install python dependencies and create html files
