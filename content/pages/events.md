@@ -5,6 +5,6 @@ Category: General
 Tags: general, events
 Slug: events
 Authors: Cobalt
-Summary: Events section for pentagame.org
+Summary: Events section for pentagame.cobalt.rocks
 
 There's on r3c event planned. More infos coming soon.
