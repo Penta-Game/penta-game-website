@@ -7,4 +7,4 @@ Slug: events
 Authors: Cobalt
 Summary: Events section for pentagame.cobalt.rocks
 
-There's on r3c event planned. More infos coming soon.
+penta will talk about Pentagame on the rc3 on Dec 30th at 1pm.
