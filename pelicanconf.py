@@ -36,8 +36,6 @@ CATEGORY_SAVE_AS = "category/{slug}/index.html"
 # Page url settings
 PAGE_URL = "pages/{slug}/"
 PAGE_SAVE_AS = "pages/{slug}/index.html"
-PAGE_LANG_URL = "pages/{lang}/{slug}/"
-PAGE_LANG_SAVE_AS = "pages/{lang}/{slug}/index.html"
 
 # Prefixes
 PREFIXES = ["/pages/*", "/blog/*", "/category/*"]
@@ -47,9 +45,9 @@ PREFIXES = ["/pages/*", "/blog/*", "/category/*"]
 MENUITEMS = (
     ("Rules", "/pages/rules/"),
     ("About", "/pages/about/"),
-    ("Events", "/pages/events/"),
+    ("Events", "/pages/events-date-2020-1-21-1020-modified-2020-1-21-1020-category-general-tags-general-events-slug-events-authors-cobalt-summary-events-section-for-pentagamecobaltrocks/"),
     ("Contact", "/pages/contact/"),
-    ("Shop", "https://87653163.shop.strato.de/") 
+    ("Shop", "https://87653163.shop.strato.de/")
 )
 
 # Pages
