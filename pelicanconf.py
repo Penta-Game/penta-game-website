@@ -45,7 +45,7 @@ PREFIXES = ["/pages/*", "/blog/*", "/category/*"]
 MENUITEMS = (
     ("Rules", "/pages/rules/"),
     ("About", "/pages/about/"),
-    ("Events", "/pages/events-date-2020-1-21-1020-modified-2020-1-21-1020-category-general-tags-general-events-slug-events-authors-cobalt-summary-events-section-for-pentagamecobaltrocks/"),
+    ("Events", "/pages/events/"),
     ("Contact", "/pages/contact/"),
     ("Shop", "https://87653163.shop.strato.de/")
 )
