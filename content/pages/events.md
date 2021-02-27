@@ -19,5 +19,6 @@ Einfache Regeln erzeugen immer wieder andere und spannende Spielverläufe. Obwoh
 - Track: Other
 - Language: en
 - Speakers: Penta (Creator of pentagame)
+- Recording: [media.ccc.de](https://media.ccc.de/v/rc3-channels-2020-66-pentagame)
 - Type: talk
 - [Learn more](https://rc3.world/rc3/public_fahrplan)
