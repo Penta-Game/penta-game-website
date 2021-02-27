@@ -1,3 +1,5 @@
+[![](https://img.shields.io/github/workflow/status/penta-game/pentagame-website/CD?style=for-the-badge)](https://github.com/Penta-Game/pentagame-website/actions) [![](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fpentagame.cobalt.rocks)](https://pentagame.cobalt.rocks)
+
 # Pentagame Website
 
 The content & assets used for pentagame.cobalt.rocks
