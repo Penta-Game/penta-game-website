@@ -4,7 +4,7 @@ The content & assets used for pentagame.cobalt.rocks
 
 Before using this in any other project please contact the pentagame software team
 
-> The website at `pentagame.cobalt.rocks` is hosted by [Cobalt](https:/cobalt.rocks) and isn't associated with the pentagame brand.
+> The website at [pentagame.cobalt.rocks](https://pentagame.cobalt.rocks) is hosted by [Cobalt](https:/cobalt.rocks) and isn't associated with the pentagame brand.
 
 ## Running locally
 
